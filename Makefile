@@ -9,3 +9,6 @@ console:
 
 shell:
 	docker-compose run --rm web bash
+
+test:
+	docker-compose run --rm web mix test
